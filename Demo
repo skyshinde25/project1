@@ -8,4 +8,10 @@ driver.navigate().refresh();
 driver.navigate().back();
 =======
 driver.manage().window().maximize();
+<<<<<<< HEAD
+>>>>>>> branch 'main' of https://github.com/skyshinde25/project1.git
+=======
+driver.manage().window().minimize();
+driver.manage().window().fullscreen();
+Thread.sleep(2000);
 >>>>>>> branch 'main' of https://github.com/skyshinde25/project1.git
