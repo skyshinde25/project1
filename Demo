@@ -1,5 +1,11 @@
 WebDriver driver = new ChromeDriver();
 driver.get("https://www.facebook.com");
 driver.quit();
+<<<<<<< HEAD
 driver.close();
 driver.get();
+driver.navigate().refresh();
+driver.navigate().back();
+=======
+driver.manage().window().maximize();
+>>>>>>> branch 'main' of https://github.com/skyshinde25/project1.git
